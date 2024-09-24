@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>@eugeneanokye</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/color-scheme.png" />
+
+    <style>
+      .fade-in {
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 2s ease-out, transform 2s ease-out;
+      }
+
+      .fade-in.show {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .stack {
+        display: block;
+        text-decoration: none;
+        color: #b2b2b2;
+        border-color: #40e0d0 !important;
+        padding: 10px;
+        border-radius: 5px;
+        border: solid;
+        background-color: transparent;
+      }
+      .logo {
+        color: #40e0d0;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body style="background-color: #06038d" class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <a href="#" class="image avatar"
+          ><img src="images/eugene.jpeg" alt=""
+        /></a>
+        <h1>
+          <strong
+            >I am
+            <span style="color: #40e0d0; font-weight: bold"
+              >Eugene Anokye.</span
+            ></strong
+          ><br />
+          <strong>A</strong>
+          <span style="color: #40e0d0; font-weight: bold"
+            >Softwarte Engineer.</span
+          ><br />
+          <strong>
+            I am very passionate about technology and intend to use it to make
+            the lives of millions easier and also less stressful.
+          </strong>
+        </h1>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <div style="background-color: #06038d" id="main">
+      <!-- One -->
+      <section id="one">
+        <header class="major">
+          <h2>
+            <strong style="color: #40e0d0; font-weight: bolder">
+              <strong
+                style="font-size: 40px; color: #40e0d0; font-weight: bolder"
+              >
+                /
+              </strong>
+              About Me ...
+            </strong>
+          </h2>
+        </header>
+        <p>
+          Hi, I’m Eugene, a passionate software engineer who thrives on creating
+          innovative solutions that bridge technology and user experience. I
+          specialize in designing scalable, efficient backend and frontend
+          systems while keeping an eye on performance, security, and
+          reliability. My expertise lies in
+          <span style="color: #40e0d0; font-weight: bold">PHP</span>,
+          <span style="color: #40e0d0; font-weight: bold">JavaScript</span>,
+          <span style="color: #40e0d0; font-weight: bold">Python</span>, and
+          backend frameworks like FastAPI and Node.js, but I’m always eager to
+          learn new technologies that push the boundaries of what's possible. I
+          love experimenting with AI and exploring how machine learning can be
+          integrated into real-world applications. Currently, I’m focused on
+          building robust APIs, optimizing databases, and enhancing security
+          protocols to ensure flawless execution in high-traffic environments.
+          When I’m not coding, you’ll find me exploring new technologies,
+          mentoring, or contributing to open-source projects.
+        </p>
+        <ul
+          id="responsiveGrid"
+          style="
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 5px;
+          "
+        >
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">React</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">Django</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">FastAPI</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">PHP</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">React Native</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">C++</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">Postman</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">Java</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">OpenGL</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">PostgreSQL</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">MongoDB</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">TensorFlow</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">LangChain</button>
+          </li>
+          <li style="text-align: center; padding: 10px">
+            <button class="stack" href="#">Git</button>
+          </li>
+        </ul>
+      </section>
+
+      <section id="one">
+        <header class="major">
+          <h2>
+            <strong style="color: #40e0d0; font-weight: bolder">
+              <strong
+                style="font-size: 40px; color: #40e0d0; font-weight: bolder"
+              >
+                /
+              </strong>
+              I do ...
+            </strong>
+          </h2>
+        </header>
+
+        <ul style="list-style: none; padding: 0; margin: 0">
+          <li
+            class="fade-in"
+            style="
+              border: 3px solid #40e0d0;
+              border-radius: 8px;
+              padding: 20px;
+              margin: 10px;
+              width: 100%;
+              max-width: 600px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              background-color: transparent;
+              font-size: 13px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <h3 class="fade-in">
+              <strong style="color: #40e0d0; font-weight: bolder"
+                >Database Design and Management</strong
+              >
+            </h3>
+            <h4 class="fade-in">
+              I design and manage databases to ensure efficient data storage and
+              retrieval, focusing on performance and scalability for
+              high-traffic systems.
+            </h4>
+            <div class="fade-in" style="margin-top: 10px">
+              <span
+                style="
+                  background-color: #40e0d0;
+                  color: #1c1313;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                  margin: 5px;
+                  display: inline-block;
+                "
+                >PostgreSQL</span
+              >
+              <span
+                style="
+                  background-color: #40e0d0;
+                  color: #1c1313;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                  margin: 5px;
+                  display: inline-block;
+                "
+                >SQLite</span
+              >
+              <span
+                style="
+                  background-color: #40e0d0;
+                  color: #1c1313;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                  margin: 5px;
+                  display: inline-block;
+                "
+                >MongoDB</span
+              >
+            </div>
+          </li>
+
+      <!-- PHP, JavaScript, C++, and Java Development -->
+	  <li class="fade-in" style="border: 3px solid #40E0D0; border-radius: 8px; padding: 20px; margin: 10px; width: 100%; max-width: 600px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: transparent; font-size: 13px; display: flex; flex-direction: column; align-items: center;">
+		<h3 class="fade-in"><strong style="color: #40E0D0; font-weight: bolder;">PHP, JavaScript, C++, and Java Development</strong></h3>
+		<h4 class="fade-in">I build dynamic, high-performance applications using a variety of programming languages to deliver interactive frontend experiences and robust backend services.</h4>
+		<div class="fade-in" style="margin-top: 10px;">
+			<span style="background-color: #40E0D0; color: #1c1313; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block;">PHP</span>
+			<span style="background-color: #40E0D0; color: #1c1313; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block;">JavaScript</span>
+			<span style="background-color: #40E0D0; color: #1c1313; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block;">C++</span>
+			<span style="background-color: #40E0D0; color: #1c1313; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block;">Java</span>
+			<span style="background-color: #40E0D0; color: #1c1313; padding: 5px 10px; border-radius: 5px; margin: 5px; display: inline-block;">Node.js</span>
+		</div>
+	</li>
+	
+
+          <li
+            class="fade-in"
+            style="
+              border: 3px solid #40e0d0;
+              border-radius: 8px;
+              padding: 20px;
+              margin: 10px;
+              width: 100%;
+              max-width: 600px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              background-color: transparent;
+              font-size: 13px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <h3 class="fade-in">
+              <strong style="color: #40e0d0; font-weight: bolder"
+                >API Development and Maintenance</strong
+              >
+            </h3>
+            <h4 class="fade-in">
+              I create and maintain APIs that enable seamless communication
+              between the frontend and backend, focusing on reliability,
+              performance, and scalability.
+            </h4>
+            <div class="fade-in" style="margin-top: 10px">
+              <span
+                style="
+                  background-color: #40e0d0;
+                  color: #1c1313;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                  margin: 5px;
+                  display: inline-block;
+                "
+                >FastAPI</span
+              >
+              <span
+                style="
+                  background-color: #40e0d0;
+                  color: #1c1313;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                  margin: 5px;
+                  display: inline-block;
+                "
+                >Django REST Framework</span
+              >
+            </div>
+          </li>
+
+          <li
+            class="fade-in"
+            style="
+              border: 3px solid #40e0d0;
+              border-radius: 8px;
+              padding: 20px;
+              margin: 10px;
+              width: 100%;
+              max-width: 600px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              background-color: transparent;
+              font-size: 13px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+            "
+          >
+            <h3 class="fade-in">
+              <strong style="color: #40e0d0; font-weight: bolder"
+                >Security and Authentication</strong
+              >
+            </h3>
+            <h4 class="fade-in">
+              I ensure the security of applications by implementing robust
+              authentication, authorization, and encryption practices to protect
+              sensitive data.
+            </h4>
+            <div class="fade-in" style="margin-top: 10px">
+              <span
+                style="
+                  background-color: #40e0d0;
+                  color: #1c1313;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                  margin: 5px;
+                  display: inline-block;
+                "
+                >JWT</span
+              >
+              <span
+                style="
+                  background-color: #40e0d0;
+                  color: #1c1313;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                  margin: 5px;
+                  display: inline-block;
+                "
+                >OAuth</span
+              >
+              <span
+                style="
+                  background-color: #40e0d0;
+                  color: #1c1313;
+                  padding: 5px 10px;
+                  border-radius: 5px;
+                  margin: 5px;
+                  display: inline-block;
+                "
+                >Cryptography</span
+              >
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Two -->
+      <section id="two">
+        <header class="major">
+          <h2>
+            <strong style="color: #40e0d0; font-weight: bolder">
+              <strong
+                style="font-size: 40px; color: #40e0d0; font-weight: bolder"
+              >
+                /
+              </strong>
+              Projects ...
+            </strong>
+          </h2>
+        </header>
+        <div class="row">
+          <div style="display: flex; flex-wrap: wrap; gap: 16px">
+            <article
+              class="col-6 fade-in col-12-xsmall"
+              style="
+                position: relative;
+                border: 2px solid #40e0d0;
+                border-radius: 10px;
+                padding: 16px;
+                box-sizing: border-box;
+                flex: 1 1 calc(50% - 16px);
+                margin-bottom: 16px;
+              "
+            >
+              <div
+                style="
+                  position: absolute;
+                  top: 10px;
+                  left: 10px;
+                  color: white;
+                  border: none;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 50px;
+                  height: 50px;
+                "
+              >
+                <i
+                  class="fab fa-github"
+                  style="
+                    font-size: 20px;
+                    color: #40e0d0;
+                    cursor: pointer;
+                    margin-right: 10px;
+                  "
+                  onclick="window.open('https://github.com/eugeneanokye99/SafeHaven', '_blank')"
+                ></i>
+              </div>
+              <div style="margin-top: 60px">
+                <h3 class="fade-in">
+                  <strong style="color: #40e0d0; font-weight: bolder"
+                    >SafeHaven</strong
+                  >
+                </h3>
+                <p class="fade-in">
+                  The Elderly Safety Mobile App is designed to enhance the
+                  well-being and safety of elderly individuals. The app provides
+                  users with safety tips, allows family members or caregivers to
+                  monitor their loved ones, and offers a friendly interface
+                  tailored to the needs of older adults.
+                </p>
+              </div>
+            </article>
+
+            <article
+              class="col-6 fade-in col-12-xsmall"
+              style="
+                position: relative;
+                border: 2px solid #40e0d0;
+                border-radius: 10px;
+                padding: 16px;
+                box-sizing: border-box;
+                flex: 1 1 calc(50% - 16px);
+                margin-bottom: 16px;
+              "
+            >
+              <div
+                style="
+                  position: absolute;
+                  top: 10px;
+                  left: 10px;
+                  color: white;
+                  border: none;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 50px;
+                  height: 50px;
+                "
+              >
+                <i
+                  class="fab fa-github"
+                  style="
+                    font-size: 20px;
+                    color: #40e0d0;
+                    cursor: pointer;
+                    margin-right: 10px;
+                  "
+                  onclick="window.open('https://github.com/eugeneanokye99/DirectDrop', '_blank')"
+                ></i>
+              </div>
+              <div style="margin-top: 60px">
+                <h3 class="fade-in">
+                  <strong style="color: #40e0d0; font-weight: bolder"
+                    >DirectDrop 🤖</strong
+                  >
+                </h3>
+                <p class="fade-in">
+                  This project is a Secure Peer-to-Peer (P2P) File Sharing
+                  Application built with a React.js frontend and a Django
+                  backend. The application aims to facilitate decentralized,
+                  secure file sharing between users, prioritizing data
+                  confidentiality, integrity, and user privacy.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/eugene-anokye-8a2a8222b/"
+              class="icon brands fa-linkedin fade-in"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/eugeneanokye99"
+              class="icon brands fa-github fade-in"
+              ><span class="label">Github</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto: yawanokye99@gmail.com"
+              class="icon solid fa-envelope fade-in"
+              ><span class="label">Email</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li class="fade-in">Built and Designed by Eugene Anokye🍀</li>
+          <li class="fade-in">&copy; eugeneanokye</li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const faders = document.querySelectorAll(".fade-in");
+
+        const appearOptions = {
+          threshold: 0.1,
+          rootMargin: "0px 0px -50px 0px",
+        };
+
+        const appearOnScroll = new IntersectionObserver(function (
+          entries,
+          appearOnScroll
+        ) {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) {
+              return;
+            } else {
+              entry.target.classList.add("show");
+              appearOnScroll.unobserve(entry.target);
+            }
+          });
+        },
+        appearOptions);
+
+        faders.forEach((fader) => {
+          appearOnScroll.observe(fader);
+        });
+      });
+    </script>
+    <script>
+      function applyResponsiveGrid() {
+        const grid = document.getElementById("responsiveGrid");
+        if (window.innerWidth <= 768) {
+          grid.style.gridTemplateColumns = "repeat(3, 1fr)";
+        } else {
+          grid.style.gridTemplateColumns = "repeat(4, 1fr)";
+        }
+        adjustButtonWidths(); // Call the function to adjust button widths
+      }
+
+      function adjustButtonWidths() {
+        const grid = document.getElementById("responsiveGrid");
+        const buttons = grid.querySelectorAll("button");
+        const gridWidth = grid.clientWidth;
+        const columns = window.innerWidth <= 768 ? 3 : 4;
+        const buttonWidth = gridWidth / columns - 20; // Adjust 20px for padding and gap
+
+        buttons.forEach((button) => {
+          button.style.width = `${buttonWidth}px`;
+        });
+      }
+
+      window.addEventListener("resize", applyResponsiveGrid);
+      window.addEventListener("load", applyResponsiveGrid);
+    </script>
+    <script>
+      window.addEventListener("resize", () => {
+        const boxes = document.querySelectorAll("#one div div");
+        boxes.forEach((box) => {
+          if (window.innerWidth <= 768) {
+            box.style.width = "45%";
+          } else if (window.innerWidth <= 480) {
+            box.style.width = "90%";
+          } else {
+            box.style.width = "30%";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
